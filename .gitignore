@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+cache.db
+.DS_Store
+
+# Hackathon-provided articles and the results generated from them: kept local, not published
+data/siis_responses.json
+results.jsonl
+results.jsonl.tmp

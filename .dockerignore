@@ -1,0 +1,25 @@
+# Secrets and environment variables
+.env
+.env.*
+
+# Git repository and metadata
+.git
+.gitignore
+
+# Databases and runtime caches
+cache.db
+*.db
+*.sqlite
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Scratch directory, temporary diagnostics, and logs
+scratch/
+logs/
+logs
+*.log
+
+# Benchmark / evaluation artifacts
+phase54_evaluation_results.json
+scratch_test_b_results.json
